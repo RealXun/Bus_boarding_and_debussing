@@ -41,3 +41,18 @@ print("The average occupation is", round((sum(occupation)/total_stops), 2),"pers
 import statistics
 print("The standard deviation of the occupation is", round(statistics.stdev(occupation), 2))
 ```
+### Result
+```
+[10]
+[10, 3]
+[10, 3, -2]
+[10, 3, -2, -1]
+[10, 3, -2, -1, 4]
+[10, 3, -2, -1, 4, -4]
+[10, 3, -2, -1, 4, -4, -3]
+[10, 3, -2, -1, 4, -4, -3, -2]
+[10, 3, -2, -1, 4, -4, -3, -2, -1]
+The maximum occupation in the bus is 14 persons
+The average occupation is 9.33 persons
+The standard deviation of the occupation is 3.39
+```
